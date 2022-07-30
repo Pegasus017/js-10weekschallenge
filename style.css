@@ -1,0 +1,67 @@
+@import "styles/reset.css";
+
+body{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.clock{
+    border: 1px solid blue;
+    margin-top: 300px;
+    height: 150px;
+    width: 400px;
+}
+
+.greetings{
+    border: 1px solid green;
+    margin-top: 50px;
+    height: 100px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings__submit{
+    margin-top: 15px;
+}
+
+.search{
+    border: 1px solid black;
+    margin-top: 30px;
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do__box{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    box-sizing: content-box;
+    padding: 10px 10px;
+    flex-wrap:wrap;
+}
+
+.to-do__box>span{
+    border: 1px solid red;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.to-do__box>li{
+    border: 1px solid blue;
+    width: inherit;
+    flex-wrap: wrap;
+    display: block;
+}
